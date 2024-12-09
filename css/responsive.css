@@ -1,0 +1,302 @@
+/* // `xs` returns only a ruleset and no media query */
+@media (max-width: 400px) { 
+    .pages{
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 17px;
+    }
+    .navbar-nav{
+        flex-direction: column; 
+        margin-bottom: 10px; 
+        text-align: end;
+    }
+    #menubtn {
+        display: block;
+    }
+    .text-area h1 {
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .text-area h2 {
+        font-size: 20px;
+    }
+    .s-ptf {
+        padding: 10px 13px;
+    }
+    .button01 {
+        padding-bottom: 100px;
+    }
+    .text-area-01 h1 {
+        font-size: 16px;
+    }
+    .text-area-01 p {
+        font-size: 12px;
+    }
+    .text-area-02{
+        text-align: center;
+    }
+    .text-area-02 h1 {
+        font-size: 16px;
+    }
+    .text-area-02 h2 {
+        font-size: 14px;
+    }
+    .text-area-02 p {
+        font-size: 12px;
+        margin: 13px 0px 27px;
+    }
+    .semiclon {
+        padding-top: 28px;
+        margin-bottom: 18px;
+    }
+    .text-area-03 p {
+        font-size: 7px;
+        margin: 0px 0px;
+        padding-bottom: 33px;
+    } 
+    .touch h1, .twitter h1, .popular h1, .about h1{
+        font-size: 14px;
+        padding-top: 25px;
+        margin: 0px 0px 25px 0px;
+    }
+    .touch h2 {
+        font-size: 12px;
+        margin: 0px 50px 35px 0px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .twitte01 p, .twitte02 p, .twitte03 p{
+        font-size: 10px;
+    }
+    .twitte01 img,  .twitte02 img,  .twitte03 img{
+        margin: 8px 16px 40px 0px;
+    }
+    .popular01 p, .popular02 p, .popular03 p{
+        font-size: 10px;
+    }
+    .date {
+        font-size: 10px;
+    }
+    .about01 p, .about02 p{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .copyright p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .pages{
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 17px;
+    }
+    .navbar-nav{
+        flex-direction: column; 
+        margin-bottom: 10px; 
+        text-align: end;
+    }
+    #menubtn {
+        display: block;
+    }
+    .text-area h1 {
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .text-area h2 {
+        font-size: 20px;
+    }
+    .s-ptf {
+        padding: 10px 13px;
+    }
+    .button01 {
+        padding-bottom: 100px;
+    }
+    .text-area-01 h1 {
+        font-size: 16px;
+    }
+    .text-area-01 p {
+        font-size: 12px;
+    }
+    .text-area-02{
+        text-align: center;
+    }
+    .text-area-02 h1 {
+        font-size: 16px;
+    }
+    .text-area-02 h2 {
+        font-size: 14px;
+    }
+    .text-area-02 p {
+        font-size: 12px;
+        margin: 13px 0px 27px;
+    }
+    .semiclon {
+        padding-top: 28px;
+        margin-bottom: 18px;
+    }
+    .text-area-03 p {
+        font-size: 7px;
+        margin: 0px 0px;
+        padding-bottom: 33px;
+    } 
+    .touch h1, .twitter h1, .popular h1, .about h1{
+        font-size: 14px;
+        padding-top: 25px;
+        margin: 0px 0px 25px 0px;
+    }
+    .touch h2 {
+        font-size: 12px;
+        margin: 0px 50px 35px 0px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .twitte01 p, .twitte02 p, .twitte03 p{
+        font-size: 10px;
+    }
+    .twitte01 img,  .twitte02 img,  .twitte03 img{
+        margin: 8px 16px 40px 0px;
+    }
+    .popular01 p, .popular02 p, .popular03 p{
+        font-size: 10px;
+    }
+    .date {
+        font-size: 10px;
+    }
+    .about01 p, .about02 p{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .copyright p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .pages{
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 17px;
+    }
+    .navbar-nav{
+        flex-direction: column; 
+        margin-bottom: 10px; 
+        text-align: end;
+    }
+    #menubtn {
+        display: block;
+    }
+    .text-area h1 {
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .text-area h2 {
+        font-size: 20px;
+    }
+    .s-ptf {
+        padding: 10px 13px;
+    }
+    .button01 {
+        padding-bottom: 100px;
+    }
+    .text-area-01 h1 {
+        font-size: 16px;
+    }
+    .text-area-01 p {
+        font-size: 12px;
+    }
+    .text-area-02{
+        text-align: center;
+    }
+    .text-area-02 h1 {
+        font-size: 16px;
+    }
+    .text-area-02 h2 {
+        font-size: 14px;
+    }
+    .text-area-02 p {
+        font-size: 12px;
+        margin: 13px 0px 27px;
+    }
+    .semiclon {
+        padding-top: 28px;
+        margin-bottom: 18px;
+    }
+    .text-area-03 p {
+        font-size: 7px;
+        margin: 0px 0px;
+        padding-bottom: 33px;
+    } 
+    .touch h1, .twitter h1, .popular h1, .about h1{
+        font-size: 14px;
+        padding-top: 25px;
+        margin: 0px 0px 25px 0px;
+    }
+    .touch h2 {
+        font-size: 12px;
+        margin: 0px 50px 35px 0px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .twitte01 p, .twitte02 p, .twitte03 p{
+        font-size: 10px;
+    }
+    .twitte01 img,  .twitte02 img,  .twitte03 img{
+        margin: 8px 16px 40px 0px;
+    }
+    .popular01 p, .popular02 p, .popular03 p{
+        font-size: 10px;
+    }
+    .date {
+        font-size: 10px;
+    }
+    .about01 p, .about02 p{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .copyright p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .navbar-nav{
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 10px; 
+        text-align: end;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+ }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
